@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Dice Game</title>
+</head>
+
+<body>
+  <div>
+    <div class="container">
+
+      <h1>Roll The Dice</h1>
+      <div class="center" style="width: 100%;">
+        <div class="innerDiv">Selected Variable: <span id="Selected"></div>
+        <div class="innerDiv">Score: <span id="Score"></div>
+      </div>
+    </div>
+
+    <div class="dice">
+      <img class="img center" src="images/dice6.svg">
+    </div>
+
+    <div class="diceContainer">
+      <button type="button" class='btn' onclick='storeVar(this)' value='1' id="d1">1</button>
+      <button type="button" class='btn' onclick='storeVar(this)' value='2' id="d2">2</button>
+      <button type="button" class='btn' onclick='storeVar(this)' value='3' id="d3">3</button>
+      <button type="button" class='btn' onclick='storeVar(this)' value='4' id="d4">4</button>
+      <button type="button" class='btn' onclick='storeVar(this)' value='5' id="d5">5</button>
+      <button type="button" class='btn' onclick='storeVar(this)' value='6' id="d6">6</button>
+      <div class="timerText">
+        <div id="Timer"></div>
+        <div id="Text"></div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

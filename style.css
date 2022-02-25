@@ -1,0 +1,89 @@
+.container {
+  margin: auto;
+  text-align: center;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+}
+
+.dice {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+body {
+  /* background-image: url("images/bg.jpg"); */
+  background-image: linear-gradient(to right, #703a36 0%, #8d4b45 0%, #c96d63 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);  background-color: #042f4b;
+  margin: 0;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #2c4769;
+  font-size: 4.5rem;
+  color: #2c0e0e;
+  text-align: center;
+}
+
+div {
+  color: #2c0e0e;
+  text-shadow: 2px 0 #2c4769;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* .innerDiv{
+  width: 50%;
+} */
+.innerDiv {
+  font-family: "Lobster", cursive;
+  color: #2c0e0e;
+  text-shadow: 2px 0 #2c4769;
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.btn {
+  background-image: linear-gradient(to top, #ff3300 0%, #ffae00 100%);  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 16px 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ff0000;
+  text-decoration: none;
+}
+.diceContainer{
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.timerText {
+  font-family: "Indie FLower", cursive;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  text-align: center;
+  margin: 0 auto;
+  font-size:3rem;
+}
+#Timer,#Text{
+  font-size:1.5rem;
+  margin: 0 auto;
+  align-items: center;
+}
